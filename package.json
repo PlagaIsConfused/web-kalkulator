@@ -1,0 +1,20 @@
+{
+  "name": "web-kalkulator",
+  "version": "1.0.0",
+  "description": "kalkulator",
+  "homepage": "https://github.com/PlagaIsConfused/web-kalkulator#readme",
+  "bugs": {
+    "url": "https://github.com/PlagaIsConfused/web-kalkulator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlagaIsConfused/web-kalkulator.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
