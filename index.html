@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
 </head>
 <body>
-    
-    <div id="fakultet">
-        <form>
-            <input name="tall" placeholder="Tall" type="number">
-            <button>Regn ut fakultet</button>
-        </form>
-        <p>
-            Resultatet er: <span class="resultat"></span>
-        </p>
-    </div>
-    
+    <h1>Factorial Calculator</h1>
+    <form id="factorial-form">
+        <input type="number" id="factorial-input" placeholder="Enter a number" required>
+        <button type="submit">Calculate Factorial</button>
+    </form>
+    <div id="factorial-result"></div>
+
+    <h1>FizzBuzz Calculator</h1>
+    <form id="fizzbuzz-form">
+        <input type="number" id="fizzbuzz-input" placeholder="Enter a number" required>
+        <button type="submit">Calculate FizzBuzz</button>
+    </form>
+    <div id="fizzbuzz-result"></div>
+
     <script src="fakultet.js"></script>
+    <script src="fizzbuzz.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
