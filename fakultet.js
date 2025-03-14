@@ -7,6 +7,12 @@ const fakultet = function(tall) {
     return result;
 }
 
+document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission
+    const input = document.querySelector('input[name="tall"]').value; // Get the input value
+    const result = fakultet(Number(input)); // Calculate the factorial
+    console.log('Input value:', input); // Debugging statement
+    console.log('Calculated result:', result); // Debugging statement
 
-
-module.exports = { fakultet }; // Exporting the factorial function
+    document.querySelector('.resultat').innerHTML = `Resultatet er: ${result}`; // Update the result display
+});
