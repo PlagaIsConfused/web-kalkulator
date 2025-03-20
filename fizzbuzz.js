@@ -11,4 +11,4 @@ function fizzBuzz(number) {
 }
 
 
-module.exports = { fizzBuzz }; // Exporting the fizzBuzz function
+export { fizzBuzz }; // Exporting the fizzBuzz function using ES module syntax
