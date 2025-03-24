@@ -7,7 +7,19 @@ const fakultet = function(tall) {
     return result;
 }
 
+export function fibonacci(n) {
+    if (n <= 1) return 1; // Base cases
+    let a = 1, b = 1;
+    for (let i = 2; i < n; i++) {
+        const temp = a;
+        a = b;
+        b = temp + b; // Fibonacci calculation
+    }
+    return b;
+}
+
 document.querySelector('form').addEventListener('submit', function(event) {
+
     console.log('Form submitted'); // Debugging statement
 
     console.log('Form submitted'); // Debugging statement
